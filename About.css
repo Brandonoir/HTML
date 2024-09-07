@@ -1,0 +1,59 @@
+h2 {
+    margin-top: 0;
+}
+
+.education {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+ .edu-article p{
+    display: inline-block;
+} 
+
+.educ_level {
+    text-align: left;
+    width: 25%;
+}
+
+.school {
+    text-align: right;
+    width: 75%;
+}
+
+hr {
+    margin-top: 0;
+}
+
+.sub-header-div {
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .4s;
+}
+
+a:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
